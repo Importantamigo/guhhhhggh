@@ -24,7 +24,7 @@ jobs:
         mkdir -p contributors_data
         
         # ADD YOUR TARGET REPOSITORIES HERE (Format: "owner/repo")
-        REPOS=("torvalds/linux" "facebook/react" "google/googletest")
+        REPOS=("Aliucord/Aliucord" "Aliucord/Manager" "Aliucord/website")
         
         OUTPUT_FILE="contributors_data/all_contributors.json"
         
