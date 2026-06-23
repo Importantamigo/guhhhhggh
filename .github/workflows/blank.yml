@@ -1,0 +1,68 @@
+name: Fetch and Cache Contributors
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs automatically every Sunday at midnight
+  workflow_dispatch: # Allows you to run this manually anytime from the Actions tab
+
+jobs:
+  fetch-contributors:
+    runs-on: ubuntu-latest
+    
+    # Explicitly grant write access so the GITHUB_TOKEN can commit the file back
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Fetch and Format Contributors
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        mkdir -p contributors_data
+        
+        # ADD YOUR TARGET REPOSITORIES HERE (Format: "owner/repo")
+        REPOS=("torvalds/linux" "facebook/react" "google/googletest")
+        
+        OUTPUT_FILE="contributors_data/all_contributors.json"
+        
+        # Initialize an empty array
+        echo "[]" > $OUTPUT_FILE
+        
+        for REPO in "${REPOS[@]}"; do
+          echo "Fetching contributors for $REPO..."
+          
+          # Hits the GitHub API pulling the top 100 contributors
+          RESPONSE=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$REPO/contributors?per_page=100")
+            
+          if echo "$RESPONSE" | jq empty; then
+            # Parse and transform the payload into flat fields: username, contributions, repository
+            FORMATTED_DATA=$(echo "$RESPONSE" | jq --arg repo "$REPO" '[.[] | {username: .login, contributions: .contributions, repository: $repo}]')
+            
+            # Append and merge to the final tracking array
+            jq -s '.[0] + .[1]' $OUTPUT_FILE <(echo "$FORMATTED_DATA") > temp.json
+            mv temp.json $OUTPUT_FILE
+          else
+            echo "::error:: Failed to fetch or parse JSON for $REPO"
+          fi
+        done
+        
+        echo "Data successfully structured inside $OUTPUT_FILE"
+
+    - name: Commit and Push to Repository
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add contributors_data/all_contributors.json
+        
+        # Only commit and push if the file actually changed
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "chore: automated update of cached contributors"
+          git push
+        else
+          echo "No changes detected in contributor counts. Skipping commit."
+        fi
