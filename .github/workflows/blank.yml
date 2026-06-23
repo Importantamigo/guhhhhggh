@@ -10,7 +10,7 @@ jobs:
       contents: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     - name: Fetch and Format Contributors
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -33,7 +33,16 @@ jobs:
           if echo "$RESPONSE" | jq empty; then
             FORMATTED_DATA=$(echo "$RESPONSE" | jq --arg repo "$REPO" '[.[] | {username: .login, avatarUrl: .avatar_url, commits: .contributions, repositories: [{name: $repo, commits: .contributions}]}]')
             
-            jq -s '.[0] + .[1]' $OUTPUT_FILE <(echo "$FORMATTED_DATA") > temp.json
+            jq -s '
+              (.[0] + .[1]) |
+              group_by(.username) |
+              map({
+                username: .[0].username,
+                avatarUrl: .[0].avatarUrl,
+                commits: map(.commits) | add,
+                repositories: map(.repositories) | add
+              })
+            ' $OUTPUT_FILE <(echo "$FORMATTED_DATA") > temp.json
             mv temp.json $OUTPUT_FILE
           else
             echo "::error:: Failed to fetch or parse JSON for $REPO"
