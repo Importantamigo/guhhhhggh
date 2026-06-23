@@ -1,133 +1,12 @@
 [
   {
-    "username": "Juby210",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/31005896?v=4",
-    "commits": 200,
+    "username": "Alvari-Kupari",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/138302953?v=4",
+    "commits": 1,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 200
-      }
-    ]
-  },
-  {
-    "username": "rushiiMachine",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
-    "commits": 141,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 141
-      }
-    ]
-  },
-  {
-    "username": "Vendicated",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/45497981?v=4",
-    "commits": 123,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 123
-      }
-    ]
-  },
-  {
-    "username": "cillynder",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/56823419?v=4",
-    "commits": 27,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 27
-      }
-    ]
-  },
-  {
-    "username": "zt64",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/31907977?v=4",
-    "commits": 24,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 24
-      }
-    ]
-  },
-  {
-    "username": "Canny1913",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/198346728?v=4",
-    "commits": 13,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 13
-      }
-    ]
-  },
-  {
-    "username": "X1nto",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/48173186?v=4",
-    "commits": 12,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 12
-      }
-    ]
-  },
-  {
-    "username": "mantikafasi",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/67705577?v=4",
-    "commits": 11,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 11
-      }
-    ]
-  },
-  {
-    "username": "omardotdev",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/180954465?v=4",
-    "commits": 11,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 11
-      }
-    ]
-  },
-  {
-    "username": "wingio",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/44992537?v=4",
-    "commits": 10,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 10
-      }
-    ]
-  },
-  {
-    "username": "js6pak",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/35262707?v=4",
-    "commits": 9,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 9
-      }
-    ]
-  },
-  {
-    "username": "Ushie",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/79272171?v=4",
-    "commits": 9,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 9
+        "commits": 1
       }
     ]
   },
@@ -143,79 +22,50 @@
     ]
   },
   {
-    "username": "hairyfred",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/30961255?v=4",
-    "commits": 4,
+    "username": "Aunali321",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48486084?v=4",
+    "commits": 1,
     "repositories": [
       {
-        "name": "Aliucord/Aliucord",
-        "commits": 4
+        "name": "Aliucord/Manager",
+        "commits": 1
       }
     ]
   },
   {
-    "username": "nyakowint",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/24845294?v=4",
-    "commits": 3,
+    "username": "Canny1913",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/198346728?v=4",
+    "commits": 13,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 3
+        "commits": 13
       }
     ]
   },
   {
     "username": "CatPieLeaf",
     "avatarUrl": "https://avatars.githubusercontent.com/u/149953009?v=4",
-    "commits": 3,
+    "commits": 4,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
         "commits": 3
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
       }
     ]
   },
   {
-    "username": "TymanWasTaken",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/32660892?v=4",
-    "commits": 2,
+    "username": "Enovale",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17408285?v=4",
+    "commits": 1,
     "repositories": [
       {
-        "name": "Aliucord/Aliucord",
-        "commits": 2
-      }
-    ]
-  },
-  {
-    "username": "scrazzz",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/70033559?v=4",
-    "commits": 2,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 2
-      }
-    ]
-  },
-  {
-    "username": "terabyte25",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23338617?v=4",
-    "commits": 2,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 2
-      }
-    ]
-  },
-  {
-    "username": "nyxiereal",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/98595166?v=4",
-    "commits": 2,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 2
+        "name": "Aliucord/Manager",
+        "commits": 1
       }
     ]
   },
@@ -231,52 +81,45 @@
     ]
   },
   {
-    "username": "aarondoet",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/42084688?v=4",
+    "username": "IAmYhvr",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/44927736?v=4",
     "commits": 1,
     "repositories": [
       {
-        "name": "Aliucord/Aliucord",
+        "name": "Aliucord/Manager",
         "commits": 1
       }
     ]
   },
   {
-    "username": "Alvari-Kupari",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/138302953?v=4",
+    "username": "Importantamigo",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/88456081?v=4",
     "commits": 1,
     "repositories": [
       {
-        "name": "Aliucord/Aliucord",
+        "name": "Aliucord/Manager",
         "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "Juby210",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/31005896?v=4",
+    "commits": 205,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 200
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 5
       }
     ]
   },
   {
     "username": "Kyiro",
     "avatarUrl": "https://avatars.githubusercontent.com/u/54126666?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "kasefuchs",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/64592097?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "sepruko",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/33651534?v=4",
     "commits": 1,
     "repositories": [
       {
@@ -319,6 +162,51 @@
     ]
   },
   {
+    "username": "TymanWasTaken",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/32660892?v=4",
+    "commits": 3,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 2
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "Ushie",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/79272171?v=4",
+    "commits": 18,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 9
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 9
+      }
+    ]
+  },
+  {
+    "username": "Vendicated",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/45497981?v=4",
+    "commits": 131,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 123
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 8
+      }
+    ]
+  },
+  {
     "username": "Wolfkid200444",
     "avatarUrl": "https://avatars.githubusercontent.com/u/32025746?v=4",
     "commits": 1,
@@ -330,8 +218,211 @@
     ]
   },
   {
+    "username": "X1nto",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48173186?v=4",
+    "commits": 13,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 12
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "aarondoet",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/42084688?v=4",
+    "commits": 1,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "cillynder",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/56823419?v=4",
+    "commits": 27,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 27
+      }
+    ]
+  },
+  {
+    "username": "crowdin-bot",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/58779643?v=4",
+    "commits": 134,
+    "repositories": [
+      {
+        "name": "Aliucord/Manager",
+        "commits": 134
+      }
+    ]
+  },
+  {
     "username": "danik4985",
     "avatarUrl": "https://avatars.githubusercontent.com/u/82022495?v=4",
+    "commits": 1,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "hairyfred",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/30961255?v=4",
+    "commits": 4,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 4
+      }
+    ]
+  },
+  {
+    "username": "janisslsm",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/97699850?v=4",
+    "commits": 1,
+    "repositories": [
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "js6pak",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/35262707?v=4",
+    "commits": 9,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 9
+      }
+    ]
+  },
+  {
+    "username": "kasefuchs",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/64592097?v=4",
+    "commits": 1,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "l6t9",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/158360149?v=4",
+    "commits": 83,
+    "repositories": [
+      {
+        "name": "Aliucord/website",
+        "commits": 83
+      }
+    ]
+  },
+  {
+    "username": "mantikafasi",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/67705577?v=4",
+    "commits": 11,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 11
+      }
+    ]
+  },
+  {
+    "username": "minishd",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/69589207?v=4",
+    "commits": 1,
+    "repositories": [
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "nyakowint",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/24845294?v=4",
+    "commits": 4,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 3
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "nyxiereal",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/98595166?v=4",
+    "commits": 2,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 2
+      }
+    ]
+  },
+  {
+    "username": "omardotdev",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/180954465?v=4",
+    "commits": 11,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 11
+      }
+    ]
+  },
+  {
+    "username": "rushiiMachine",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
+    "commits": 504,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 141
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 358
+      },
+      {
+        "name": "Aliucord/website",
+        "commits": 5
+      }
+    ]
+  },
+  {
+    "username": "scrazzz",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/70033559?v=4",
+    "commits": 2,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 2
+      }
+    ]
+  },
+  {
+    "username": "sepruko",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/33651534?v=4",
     "commits": 1,
     "repositories": [
       {
@@ -352,6 +443,17 @@
     ]
   },
   {
+    "username": "terabyte25",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/23338617?v=4",
+    "commits": 2,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 2
+      }
+    ]
+  },
+  {
     "username": "unxcepted",
     "avatarUrl": "https://avatars.githubusercontent.com/u/28658966?v=4",
     "commits": 1,
@@ -363,87 +465,14 @@
     ]
   },
   {
-    "username": "yutaplug",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/213663917?v=4",
-    "commits": 1,
+    "username": "wingio",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/44992537?v=4",
+    "commits": 12,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "rushiiMachine",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
-    "commits": 358,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 358
-      }
-    ]
-  },
-  {
-    "username": "crowdin-bot",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/58779643?v=4",
-    "commits": 134,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 134
-      }
-    ]
-  },
-  {
-    "username": "zt64",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/31907977?v=4",
-    "commits": 50,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 50
-      }
-    ]
-  },
-  {
-    "username": "Ushie",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/79272171?v=4",
-    "commits": 9,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 9
-      }
-    ]
-  },
-  {
-    "username": "Vendicated",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/45497981?v=4",
-    "commits": 8,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 8
-      }
-    ]
-  },
-  {
-    "username": "Juby210",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/31005896?v=4",
-    "commits": 5,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 5
-      }
-    ]
-  },
-  {
-    "username": "wingio",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/44992537?v=4",
-    "commits": 2,
-    "repositories": [
+        "commits": 10
+      },
       {
         "name": "Aliucord/Manager",
         "commits": 2
@@ -451,120 +480,14 @@
     ]
   },
   {
-    "username": "nyakowint",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/24845294?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "Aunali321",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/48486084?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "CatPieLeaf",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/149953009?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "Enovale",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17408285?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "Importantamigo",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/88456081?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "janisslsm",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/97699850?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "TymanWasTaken",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/32660892?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "X1nto",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/48173186?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "IAmYhvr",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/44927736?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
-    "username": "minishd",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/69589207?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Manager",
-        "commits": 1
-      }
-    ]
-  },
-  {
     "username": "yutaplug",
     "avatarUrl": "https://avatars.githubusercontent.com/u/213663917?v=4",
-    "commits": 114,
+    "commits": 115,
     "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 1
+      },
       {
         "name": "Aliucord/website",
         "commits": 114
@@ -572,24 +495,17 @@
     ]
   },
   {
-    "username": "l6t9",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/158360149?v=4",
-    "commits": 83,
+    "username": "zt64",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/31907977?v=4",
+    "commits": 74,
     "repositories": [
       {
-        "name": "Aliucord/website",
-        "commits": 83
-      }
-    ]
-  },
-  {
-    "username": "rushiiMachine",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
-    "commits": 5,
-    "repositories": [
+        "name": "Aliucord/Aliucord",
+        "commits": 24
+      },
       {
-        "name": "Aliucord/website",
-        "commits": 5
+        "name": "Aliucord/Manager",
+        "commits": 50
       }
     ]
   }
