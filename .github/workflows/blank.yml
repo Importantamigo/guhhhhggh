@@ -31,7 +31,7 @@ jobs:
             "https://api.github.com/repos/$REPO/contributors?per_page=100")
             
           if echo "$RESPONSE" | jq empty; then
-            FORMATTED_DATA=$(echo "$RESPONSE" | jq --arg repo "$REPO" '[.[] | select(.type == "User") | {username: .login, avatarUrl: .avatar_url, commits: .contributions, repositories: [{name: $repo, commits: .contributions}]}]')
+           FORMATTED_DATA=$(echo "$RESPONSE" | jq --arg repo "$REPO" '[.[] | select(.type == "User" and .login != "crowdin-bot") | {username: .login, avatarUrl: .avatar_url, commits: .contributions, repositories: [{name: $repo, commits: .contributions}]}]')
             jq -s '
               (.[0] + .[1]) |
               group_by(.username) |
