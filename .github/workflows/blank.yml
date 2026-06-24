@@ -45,7 +45,7 @@ jobs:
           if echo "$RESPONSE" | jq empty; then
             FORMATTED_DATA=$(echo "$RESPONSE" | jq --arg repo "$REPO" '
               [ .[] | 
-                select(.type == "User" and .login != "github-actions[bot]" and .login != "crowdin-bot") | 
+                select(.type == "User" and .login != "actions-user" and .login != "crowdin-bot") | 
                 {
                   username: .login, 
                   avatarUrl: .avatar_url, 
