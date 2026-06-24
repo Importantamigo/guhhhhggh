@@ -10,19 +10,35 @@ jobs:
       contents: write
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v7
+      uses: actions/checkout@v4
+
     - name: Fetch and Format Contributors
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         mkdir -p contributors_data
-        
-        REPOS=("Aliucord/Aliucord" "Aliucord/Manager" "Aliucord/website")
-        
         OUTPUT_FILE="contributors_data/all_contributors.json"
-        
         echo "[]" > $OUTPUT_FILE
         
+        ORG_NAME="Aliucord"
+        echo "Discovering repositories for organization: $ORG_NAME..."
+
+        # 1. Dynamically pull all non-fork public repositories from the organization
+        # Filters out forks to avoid duplicate contributor parsing from upstream projects
+        REPOS_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          -H "Accept: application/vnd.github+json" \
+          "https://api.github.com/orgs/$ORG_NAME/repos?per_page=100&type=public")
+
+        # Extract "owner/repo" full names into a bash array
+        if echo "$REPOS_JSON" | jq empty; then
+          REPOS=($(echo "$REPOS_JSON" | jq -r '.[] | select(.fork == false) | .full_name'))
+          echo "Found ${#REPOS[@]} repositories to scan."
+        else
+          echo "::error:: Failed to fetch repository listing for organization $ORG_NAME"
+          exit 1
+        fi
+        
+        # 2. Iterate through the dynamically discovered repositories
         for REPO in "${REPOS[@]}"; do
           echo "Fetching contributors for $REPO..."
           
@@ -31,7 +47,8 @@ jobs:
             "https://api.github.com/repos/$REPO/contributors?per_page=100")
             
           if echo "$RESPONSE" | jq empty; then
-           FORMATTED_DATA=$(echo "$RESPONSE" | jq --arg repo "$REPO" '[.[] | select(.type == "User" and .login != "crowdin-bot") | {username: .login, avatarUrl: .avatar_url, commits: .contributions, repositories: [{name: $repo, commits: .contributions}]}]')
+            FORMATTED_DATA=$(echo "$RESPONSE" | jq --arg repo "$REPO" '[.[] | select(.type == "User" and .login != "crowdin-bot") | {username: .login, avatarUrl: .avatar_url, commits: .contributions, repositories: [{name: $repo, commits: .contributions}]}]')
+            
             jq -s '
               (.[0] + .[1]) |
               group_by(.username) |
@@ -49,6 +66,7 @@ jobs:
         done
         
         echo "Data successfully structured inside $OUTPUT_FILE"
+
     - name: Commit and Push to Repository
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
