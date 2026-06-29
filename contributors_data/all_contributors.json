@@ -323,8 +323,12 @@
   {
     "username": "RazerTexz",
     "avatarUrl": "https://avatars.githubusercontent.com/u/66409416?v=4",
-    "commits": 8,
+    "commits": 9,
     "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 1
+      },
       {
         "name": "Aliucord/plugins",
         "commits": 8
@@ -599,11 +603,11 @@
   {
     "username": "cillynder",
     "avatarUrl": "https://avatars.githubusercontent.com/u/56823419?v=4",
-    "commits": 29,
+    "commits": 33,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 27
+        "commits": 31
       },
       {
         "name": "Aliucord/plugins-repo",
@@ -1058,7 +1062,7 @@
   {
     "username": "yutaplug",
     "avatarUrl": "https://avatars.githubusercontent.com/u/213663917?v=4",
-    "commits": 128,
+    "commits": 130,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -1070,7 +1074,7 @@
       },
       {
         "name": "Aliucord/website",
-        "commits": 114
+        "commits": 116
       }
     ]
   },
