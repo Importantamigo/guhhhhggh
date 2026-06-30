@@ -1062,7 +1062,7 @@
   {
     "username": "yutaplug",
     "avatarUrl": "https://avatars.githubusercontent.com/u/213663917?v=4",
-    "commits": 130,
+    "commits": 133,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -1074,7 +1074,7 @@
       },
       {
         "name": "Aliucord/website",
-        "commits": 116
+        "commits": 119
       }
     ]
   },
