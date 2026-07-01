@@ -13,7 +13,7 @@
   {
     "username": "Archimedes9500",
     "avatarUrl": "https://avatars.githubusercontent.com/u/82618548?v=4",
-    "commits": 8,
+    "commits": 9,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -21,6 +21,10 @@
       },
       {
         "name": "Aliucord/documentation",
+        "commits": 1
+      },
+      {
+        "name": "Aliucord/Aliucord-backend",
         "commits": 1
       }
     ]
