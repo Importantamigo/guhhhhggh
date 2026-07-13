@@ -166,8 +166,12 @@
   {
     "username": "Importantamigo",
     "avatarUrl": "https://avatars.githubusercontent.com/u/88456081?v=4",
-    "commits": 1,
+    "commits": 3,
     "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
+        "commits": 2
+      },
       {
         "name": "Aliucord/Manager",
         "commits": 1
@@ -645,6 +649,17 @@
       },
       {
         "name": "Aliucord/Aliucord-backend",
+        "commits": 1
+      }
+    ]
+  },
+  {
+    "username": "insertusernamed",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/113151220?v=4",
+    "commits": 1,
+    "repositories": [
+      {
+        "name": "Aliucord/Aliucord",
         "commits": 1
       }
     ]
