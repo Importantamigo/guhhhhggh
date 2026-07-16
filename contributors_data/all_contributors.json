@@ -166,7 +166,7 @@
   {
     "username": "Importantamigo",
     "avatarUrl": "https://avatars.githubusercontent.com/u/88456081?v=4",
-    "commits": 3,
+    "commits": 4,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -174,14 +174,14 @@
       },
       {
         "name": "Aliucord/Manager",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
   {
     "username": "Juby210",
     "avatarUrl": "https://avatars.githubusercontent.com/u/31005896?v=4",
-    "commits": 360,
+    "commits": 361,
     "repositories": [
       {
         "name": "Aliucord/libzip",
@@ -225,7 +225,7 @@
       },
       {
         "name": "Aliucord/badges",
-        "commits": 10
+        "commits": 11
       },
       {
         "name": "Aliucord/AliucordRN",
