@@ -66,11 +66,11 @@
   {
     "username": "Canny1913",
     "avatarUrl": "https://avatars.githubusercontent.com/u/198346728?v=4",
-    "commits": 15,
+    "commits": 17,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 14
+        "commits": 16
       },
       {
         "name": "Aliucord/gradle-plugin",
@@ -789,11 +789,11 @@
   {
     "username": "mantikafasi",
     "avatarUrl": "https://avatars.githubusercontent.com/u/67705577?v=4",
-    "commits": 11,
+    "commits": 12,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 11
+        "commits": 12
       }
     ]
   },
@@ -894,11 +894,11 @@
   {
     "username": "omaawr",
     "avatarUrl": "https://avatars.githubusercontent.com/u/180954465?v=4",
-    "commits": 13,
+    "commits": 14,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 11
+        "commits": 12
       },
       {
         "name": "Aliucord/plugins-template",
@@ -913,11 +913,11 @@
   {
     "username": "rushiiMachine",
     "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
-    "commits": 730,
+    "commits": 731,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 141
+        "commits": 142
       },
       {
         "name": "Aliucord/plugins-template",
