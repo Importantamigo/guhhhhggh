@@ -13,11 +13,11 @@
   {
     "username": "Archimedes9500",
     "avatarUrl": "https://avatars.githubusercontent.com/u/82618548?v=4",
-    "commits": 9,
+    "commits": 10,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 7
+        "commits": 8
       },
       {
         "name": "Aliucord/documentation",
@@ -913,7 +913,7 @@
   {
     "username": "rushiiMachine",
     "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
-    "commits": 731,
+    "commits": 732,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -925,7 +925,7 @@
       },
       {
         "name": "Aliucord/Manager",
-        "commits": 358
+        "commits": 359
       },
       {
         "name": "Aliucord/Aliucord-backend",
@@ -1007,11 +1007,15 @@
   {
     "username": "secp192k1",
     "avatarUrl": "https://avatars.githubusercontent.com/u/24621566?v=4",
-    "commits": 24,
+    "commits": 25,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
         "commits": 3
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
       },
       {
         "name": "Aliucord/webrtc",
