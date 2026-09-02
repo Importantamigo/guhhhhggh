@@ -924,7 +924,7 @@
   {
     "username": "rushiiMachine",
     "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
-    "commits": 733,
+    "commits": 735,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -944,7 +944,7 @@
       },
       {
         "name": "Aliucord/gradle-plugin",
-        "commits": 68
+        "commits": 70
       },
       {
         "name": "Aliucord/badges",
