@@ -166,11 +166,11 @@
   {
     "username": "Importantamigo",
     "avatarUrl": "https://avatars.githubusercontent.com/u/88456081?v=4",
-    "commits": 4,
+    "commits": 5,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 2
+        "commits": 3
       },
       {
         "name": "Aliucord/Manager",
