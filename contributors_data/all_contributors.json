@@ -430,11 +430,11 @@
   {
     "username": "Ushie",
     "avatarUrl": "https://avatars.githubusercontent.com/u/79272171?v=4",
-    "commits": 37,
+    "commits": 38,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 11
+        "commits": 12
       },
       {
         "name": "Aliucord/Manager",
