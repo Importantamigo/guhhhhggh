@@ -181,7 +181,7 @@
   {
     "username": "Juby210",
     "avatarUrl": "https://avatars.githubusercontent.com/u/31005896?v=4",
-    "commits": 361,
+    "commits": 363,
     "repositories": [
       {
         "name": "Aliucord/libzip",
@@ -225,7 +225,7 @@
       },
       {
         "name": "Aliucord/badges",
-        "commits": 11
+        "commits": 13
       },
       {
         "name": "Aliucord/AliucordRN",
@@ -1018,11 +1018,11 @@
   {
     "username": "secp192k1",
     "avatarUrl": "https://avatars.githubusercontent.com/u/24621566?v=4",
-    "commits": 26,
+    "commits": 27,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 3
+        "commits": 4
       },
       {
         "name": "Aliucord/Manager",
