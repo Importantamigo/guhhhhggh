@@ -924,11 +924,11 @@
   {
     "username": "rushiiMachine",
     "avatarUrl": "https://avatars.githubusercontent.com/u/33725716?v=4",
-    "commits": 735,
+    "commits": 737,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 143
+        "commits": 145
       },
       {
         "name": "Aliucord/plugins-template",
