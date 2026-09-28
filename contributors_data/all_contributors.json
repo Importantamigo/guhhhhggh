@@ -622,11 +622,11 @@
   {
     "username": "cillynder",
     "avatarUrl": "https://avatars.githubusercontent.com/u/56823419?v=4",
-    "commits": 35,
+    "commits": 39,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 33
+        "commits": 37
       },
       {
         "name": "Aliucord/plugins-repo",
@@ -1100,7 +1100,7 @@
   {
     "username": "yutaplug",
     "avatarUrl": "https://avatars.githubusercontent.com/u/213663917?v=4",
-    "commits": 138,
+    "commits": 139,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -1108,7 +1108,7 @@
       },
       {
         "name": "Aliucord/LumiBot",
-        "commits": 13
+        "commits": 14
       },
       {
         "name": "Aliucord/website",
