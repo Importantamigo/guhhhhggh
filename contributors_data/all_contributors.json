@@ -66,11 +66,11 @@
   {
     "username": "Canny1913",
     "avatarUrl": "https://avatars.githubusercontent.com/u/198346728?v=4",
-    "commits": 17,
+    "commits": 18,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 16
+        "commits": 17
       },
       {
         "name": "Aliucord/gradle-plugin",
