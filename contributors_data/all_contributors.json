@@ -430,11 +430,11 @@
   {
     "username": "Ushie",
     "avatarUrl": "https://avatars.githubusercontent.com/u/79272171?v=4",
-    "commits": 38,
+    "commits": 39,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 12
+        "commits": 13
       },
       {
         "name": "Aliucord/Manager",
@@ -1068,17 +1068,6 @@
     ]
   },
   {
-    "username": "unxcepted",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/28658966?v=4",
-    "commits": 1,
-    "repositories": [
-      {
-        "name": "Aliucord/Aliucord",
-        "commits": 1
-      }
-    ]
-  },
-  {
     "username": "wingio",
     "avatarUrl": "https://avatars.githubusercontent.com/u/44992537?v=4",
     "commits": 13,
@@ -1100,7 +1089,7 @@
   {
     "username": "yutaplug",
     "avatarUrl": "https://avatars.githubusercontent.com/u/213663917?v=4",
-    "commits": 139,
+    "commits": 140,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -1108,7 +1097,7 @@
       },
       {
         "name": "Aliucord/LumiBot",
-        "commits": 14
+        "commits": 15
       },
       {
         "name": "Aliucord/website",
