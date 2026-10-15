@@ -622,11 +622,11 @@
   {
     "username": "cillynder",
     "avatarUrl": "https://avatars.githubusercontent.com/u/56823419?v=4",
-    "commits": 42,
+    "commits": 44,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
-        "commits": 40
+        "commits": 42
       },
       {
         "name": "Aliucord/plugins-repo",
