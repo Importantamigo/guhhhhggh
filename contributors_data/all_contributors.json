@@ -430,7 +430,7 @@
   {
     "username": "Ushie",
     "avatarUrl": "https://avatars.githubusercontent.com/u/79272171?v=4",
-    "commits": 43,
+    "commits": 44,
     "repositories": [
       {
         "name": "Aliucord/Aliucord",
@@ -446,7 +446,7 @@
       },
       {
         "name": "Aliucord/LumiBot",
-        "commits": 4
+        "commits": 5
       },
       {
         "name": "Aliucord/plugins",
