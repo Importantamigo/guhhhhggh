@@ -551,7 +551,7 @@
   {
     "username": "X1nto",
     "avatarUrl": "https://avatars.githubusercontent.com/u/48173186?v=4",
-    "commits": 11,
+    "commits": 16,
     "repositories": [
       {
         "name": "Aliucord/buildtool",
@@ -559,7 +559,11 @@
       },
       {
         "name": "Aliucord/Aliucord",
-        "commits": 8
+        "commits": 12
+      },
+      {
+        "name": "Aliucord/Manager",
+        "commits": 1
       },
       {
         "name": "Aliucord/DiscordRN",
